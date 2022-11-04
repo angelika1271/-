@@ -1,0 +1,309 @@
+html{
+    width: 1600px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    background-image: url(bg_9.jpg);
+    height: 750px;
+}
+.h0{
+   
+    font-size: 36px;
+    color: #e0e0e0;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    margin-top: 30px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+}
+.links{
+   
+    margin-top: 50px;
+    width: 81px;
+    height: 21px;
+    margin-left: 20px;
+}
+.decor{
+    width: 232px;
+    height: 43px;
+    margin-left: 675px;
+    margin-top: 25px;
+}
+.img{
+    display: flex;
+   background-image: url(logo_-_image.png);
+    margin-left: 175px;
+    margin-top: 13px ;
+    width: 128px;
+    height: 92px;
+}
+.dws-ul{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: "Gentium Book Basic";
+    width: 710px;
+    height: 73px;
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: 700;
+    justify-content: space-between;
+    padding: 0px;
+    margin-left: 230px;
+    align-items: center;
+    padding-top: 39px;
+    padding-bottom: 21px;
+    box-sizing: border-box;
+}
+.dws-li {
+ list-style: none;
+ width: auto;
+ height: 50px;
+ margin-top: 20px;
+
+}
+.dws-li a{
+ text-decoration: none;
+ color: #000;
+}
+.dws-li:hover{
+ background-color: #e5eae8;
+ opacity: 70%;
+
+}
+.h1{
+    text-align: center;
+    font-size: 90px;
+    color: #ffffff;
+    font-family: "Yeseva One";
+    filter: drop-shadow(0.469px 0.883px 1px rgba(1,1,1,0.64));
+    padding-top: 90px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.ul2{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: "Gentium Book Basic";
+    width: 710px;
+    height: 73px;
+    font-size: 21px;
+    color: #ffffff;
+    margin-left: 545px;
+}
+.li2 {
+ list-style: none;
+ width: auto;
+ height: 50px;
+ margin-top: 20px;
+
+}
+.li2 a{
+ text-decoration: none;
+ color: white
+ ;
+}
+.li2:hover{
+ background-color:black;
+ opacity: 70%;
+
+}
+
+.ul2{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.li2{
+    width: 207px;
+    height: 49px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+}
+.h2{
+    width: 432px;
+    height: 47px;
+    font-size: 36px;
+    color: #cc9900;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+.p1{
+    width: 432px;
+    height: 130px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+    border:#cc9900;
+    height: 710px;
+    padding-left: 285px;
+    padding-right: 280px;
+}
+.sec11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.divi{
+    width: 247px;
+    height: 24px;
+}
+.rosp{
+    margin-top: 30px;
+    width: 219px;
+    height: 221px;
+    margin-left: 30px;
+}
+.sec12{
+    width: 568px;
+    height: 587px;
+    align-self: center;
+    padding-left: 70px;
+}
+.h6{
+    font-size: 36px;
+    color: #ffffff;
+    font-family: "Yeseva One";
+   margin: 0px;
+}
+.p2{
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Lato";
+    text-align: center;
+}
+.section2{
+    display: flex;
+    background-image: url(bg_7.png);
+    height: 758px;
+}
+.sec2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:815px ;
+    margin-right: 215px;
+    align-self: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-sizing:border-box;
+    
+    background: rgba(0, 0,0, 0.5);
+    padding-left: 70px;
+    padding-right: 70px;
+    background-position: bottom;
+   
+}
+.img2{
+    display: flex;
+    flex-direction: row;
+    width: 430px;
+    height: 110px;
+    justify-content: space-around;
+    padding-top: 65px;
+}
+.divi2{
+    width:247px;
+    height: 24px;
+    padding-top: 15px;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    height: 995px;
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+    background-image: url(bg_3.png);
+    height: 758px;
+}
+.h5{
+   margin-bottom: 15px;
+    font-size: 36px;
+    color: #ffffff;
+    font-family: "Yeseva One";
+    text-align: center;
+    margin-top:0px;
+}
+.p4{
+    width: 630px;
+    height: 327px;
+    font-size: 25px;
+    line-height: 45px;
+    color: #dde0df;
+    font-weight: 700;
+    font-family: "Gentium Book Basic";
+    text-align: center;
+}
+.p5{
+    font-family: "lato";
+    font-size: 18px;
+    color: white;
+}
+.guest{
+    background: rgba(0, 0,0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    box-sizing:border-box;
+    margin-left:450px ;
+    margin-right: 450px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 558px;
+    margin-top: 100px;
+}
+.app_start{
+    display: flex;
+    flex-direction: row;
+}
+.sal_main{
+    display: flex;
+    flex-direction: row;
+}
+.h4{
+    font-size: 36px;
+    line-height: 24px;
+    color: #cc9900;
+
+    font-family: "Yeseva One";
+    text-align: center;
+}
+.p3{
+    font-size: 21px;
+    line-height: 24px;
+    color: #c89f2d;
+    font-family: "Yeseva One";
+    text-align: left;
+}
+.hr{
+    width: 432px;
+    color: #c89f2d;
+    
+}
