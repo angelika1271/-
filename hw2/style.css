@@ -14,6 +14,7 @@ html{
     font-weight: 400;
     font-family: "Yeseva One";
     margin-top: 30px;
+  
 }
 .menu{
     display: flex;
@@ -21,11 +22,10 @@ html{
     height: 110px;
 }
 .links{
-   
     margin-top: 50px;
     width: 81px;
     height: 21px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .decor{
     width: 232px;
@@ -54,7 +54,7 @@ html{
     font-weight: 700;
     justify-content: space-between;
     padding: 0px;
-    margin-left: 230px;
+    margin-left: 290px;
     align-items: center;
     padding-top: 39px;
     padding-bottom: 21px;
@@ -65,11 +65,12 @@ html{
  width: auto;
  height: 50px;
  margin-top: 20px;
+ color: #ffffff;
 
 }
 .dws-li a{
  text-decoration: none;
- color: #000;
+ color: rgb(255, 255, 255);
 }
 .dws-li:hover{
  background-color: #e5eae8;
@@ -84,6 +85,7 @@ html{
     filter: drop-shadow(0.469px 0.883px 1px rgba(1,1,1,0.64));
     padding-top: 90px;
     margin-left: 0px;
+    
     margin-bottom: 0px;
 }
 
@@ -152,6 +154,7 @@ html{
 }
 .section1{
     display: flex;
+    background-image: url(background_3.png);
     flex-direction: row;
     border:#cc9900;
     height: 710px;
@@ -180,11 +183,12 @@ html{
     align-self: center;
     padding-left: 70px;
 }
-.h6{
+.h8{
     font-size: 36px;
     color: #ffffff;
     font-family: "Yeseva One";
-   margin: 0px;
+    margin: 0px;
+    height: 47px;
 }
 .p2{
     font-size: 16px;
@@ -214,6 +218,7 @@ html{
     padding-left: 70px;
     padding-right: 70px;
     background-position: bottom;
+    font-family: "Yeseva One";
    
 }
 .img2{
@@ -230,15 +235,22 @@ html{
     padding-top: 15px;
 }
 .section3{
+    background-image: url(background_3.png);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 995px;
+    justify-content: space-around;
+    
 }
 .section4{
     display: flex;
     flex-direction: column;
     background-image: url(bg_3.png);
     height: 758px;
+}
+.divi10{
+
+    padding-left: 100px;
 }
 .h5{
    margin-bottom: 15px;
@@ -279,21 +291,69 @@ html{
     height: 558px;
     margin-top: 100px;
 }
-.app_start{
+.app_salad{
+    margin-top:70px ;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 180px;
+
 }
-.sal_main{
+.start{
+    
+    width: 430px;
+    height: 270px;
+
+}
+.maindish{
+    
+    width: 430px;
+    height: 460px;
+
+}
+.salads{
+   
+    width: 430px;
+    height: 360px;
+   
+
+}
+.apper{
+
+    width: 430px;
+    height: 380px;
+}
+.start_main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin-top:70px ;
+   
+    margin-right: 180px;
+ 
+}
+.ul3{
+    list-style: none;
+
+}
+.ul4{
+    list-style: none;
+
+}
+.ul5{
+    list-style: none;
+
+}
+.ul6{
+    list-style: none;
+
 }
 .h4{
     font-size: 36px;
     line-height: 24px;
     color: #cc9900;
-
     font-family: "Yeseva One";
     text-align: center;
+    margin-bottom: 30px;
 }
 .p3{
     font-size: 21px;
@@ -301,9 +361,231 @@ html{
     color: #c89f2d;
     font-family: "Yeseva One";
     text-align: left;
+}   
+.p10{
+    font-family: "lato";
+    line-height: 24px;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+.coins{
+    font-size: 21px;
+    line-height: 24px;
+    color: #c89f2d;
+    font-family: "Yeseva One";
+    text-align: right;
+}
+.menu1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: max-content;
 }
 .hr{
-    width: 432px;
+    width: 400px;
     color: #c89f2d;
     
+}
+.section5{
+    background-image: url(background_3.png);
+    height: 710px;
+    display: flex;
+    flex-direction: row;
+}
+.img30{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 570px; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+}
+.part2{
+    display:flex ;
+    flex-direction: column;
+    margin-right: 275px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.h6{
+    height: 47px;
+    font-size: 36px;
+    line-height: 24px;
+    color: #cc9900;
+    font-family: "Yeseva One";
+    text-align: center;
+    margin: 0px;
+}
+.divi5{
+    margin-left: 90px;
+}
+.p6{
+    width: 432px;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    font-family: "Lato";
+    text-align: center;
+}
+.all{
+    margin-top: 30px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 210px;
+    padding-right: 280px;
+    padding-top: 50px;
+    padding-bottom: 65px;
+    background-color: #191919;
+}
+.about_us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.open_hours{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.locat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pf1{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}  
+.hf{
+    font-family: "Yeseva One";
+    text-align: center;
+    font-size: 21px;
+    line-height: 24px;
+    margin: 10px;
+    color: #ffffff;
+} 
+.imgf{
+    margin-top: 30px;
+}
+.imgf1{
+    margin-top: 30px;
+}
+.linkwith{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+
+}
+.name_email{
+    display: flex;
+    flex-direction: row;
+   
+}
+.date_party{
+    display: flex;
+    flex-direction: row;
+   
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.party{
+    display: flex;
+    flex-direction: column;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+   position: relative;
+}
+.p30{
+    width: 76px;
+height: 17px;
+font-size: 16px;
+color: #c9a131;
+font-weight: 700;
+font-family: "Open Sans";
+}
+.p31{
+    width: 137px;
+height: 17px;
+font-size: 16px;
+color: #c9a131;
+font-weight: 700;
+font-family: "Open Sans";
+}
+
+input#name{
+    width: 200px;
+    height: 35px;
+    border-color: #c89f2d;
+    border: #c89f2d;
+    font-style: italic;
+    font-family: "Open Sans"; 
+    font-size: 16px;
+    color: #908e8e;
+}
+input#email{
+    font-size: 16px;
+    width: 200px;
+    height: 35px;
+    border-color: rgba(135, 133, 135, 0.067);
+    font-style: italic;
+    font-family: "Open Sans";
+    color: #908e8e;
+
+}
+input#date{
+    font-size: 16px;
+    width: 200px;
+    height: 35px;
+    border-color:  rgba(135, 133, 135, 0.067);
+    font-style: italic;
+    font-family: "Open Sans";
+    color: #908e8e;
+}
+.partyy{
+    font-size: 16px;
+    width: 200px;
+    height: 40px;
+    border-color:  rgba(135, 133, 135, 0.067);
+    font-style: italic;
+    font-family: "Open Sans";
+    color: #908e8e;
+}
+
+input#buttons{
+    width: 200px;
+    height: 35px;
+    background-color: #c9a131;
+    border:0cm;
+    font-family:"Open Sans" ;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
 }
